@@ -16,7 +16,7 @@ final class GraphQLResultNormalizer: GraphQLResultAccumulator {
   }
 
   func accept(fieldEntry: JSONValue, info: GraphQLResolveInfo) -> (key: String, value: JSONValue) {
-    return (info.cacheKeyForField, fieldEntry)
+    return ("\(info.cacheKeyForField)", fieldEntry)
   }
 
   func accept(fieldEntries: [(key: String, value: JSONValue)], info: GraphQLResolveInfo) throws -> JSONValue {

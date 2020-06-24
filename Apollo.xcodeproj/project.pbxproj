@@ -2631,10 +2631,10 @@
 		};
 		9B7BDAF423FDEE2600ACD198 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			repositoryURL = "https://github.com/danl3v/SQLite.swift.git";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.12.2;
+				kind = revision;
+				revision = 385ce0c1b9870c712e712491caa528591988be3e;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
