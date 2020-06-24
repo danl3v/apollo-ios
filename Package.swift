@@ -24,8 +24,8 @@ let package = Package(
     ],
     dependencies: [
     .package(
-      url: "https://github.com/stephencelis/SQLite.swift.git",
-      .upToNextMinor(from: "0.12.2")),
+      url: "https://github.com/danl3v/SQLite.swift.git",
+      .revision("385ce0c1b9870c712e712491caa528591988be3e")),
     .package(
       url: "https://github.com/daltoniam/Starscream",
       .upToNextMinor(from: "3.1.1")),

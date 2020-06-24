@@ -1,2 +1,2 @@
-github "stephencelis/SQLite.swift" ~> 0.12.2
+github "danl3v/SQLite.swift" "385ce0c1b9870c712e712491caa528591988be3e"
 github "daltoniam/Starscream" ~> 3.1.1
